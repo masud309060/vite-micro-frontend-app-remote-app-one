@@ -1,6 +1,5 @@
 import CountButton from "./components/CountButton.tsx";
 import useCount from "./jotai/store.ts";
-import './App.css'
 
 function App() {
     const [count, setCount] = useCount()
